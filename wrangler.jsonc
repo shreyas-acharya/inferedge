@@ -4,7 +4,7 @@
  */
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "spring-field-f552",
+	"name": "inferedge",
 	"main": "src/index.ts",
 	"compatibility_date": "2026-05-17",
 	"assets": {
