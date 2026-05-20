@@ -1,0 +1,16 @@
+{
+  "name": "inferedge",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "hono": "^4.12.21"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "wrangler": "^4.93.0"
+  }
+}
